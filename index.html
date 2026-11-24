@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#050510">
+  <meta name="description" content="Portofolio Muhammad Al-Fari Yusuf — Creative Fullstack Developer & 3D WebGL Specialist.">
+  <title>Muhammad Al-Fari Yusuf | Portofolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <canvas id="bg" aria-hidden="true"></canvas>
+
+  <header class="nav">
+    <a href="#home" class="brand" id="brand"></a>
+    <nav>
+      <a href="#education">Education</a>
+      <a href="#experience">Experience</a>
+      <a href="#projects">Projects</a>
+      <a href="#certificates">Certificates</a>
+      <a href="#awards">Awards</a>
+      <a href="#social">Social</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="card-wrap">
+        <div class="namecard" id="card">
+          <div class="shine"></div>
+          <img id="photo" class="photo" alt="Foto pribadi">
+          <h1 id="name"></h1>
+          <p id="role" class="role"></p>
+          <p id="about" class="about"></p>
+        </div>
+      </div>
+    </section>
+
+    <section id="education"><h2>Education</h2><div id="education-list" class="timeline"></div></section>
+    <section id="experience"><h2>Experience</h2><div id="experience-list" class="timeline"></div></section>
+    <section id="projects"><h2>Projects</h2><div id="projects-list" class="grid"></div></section>
+    <section id="certificates"><h2>Certificates</h2><div id="certificates-list" class="grid"></div></section>
+    <section id="awards"><h2>Awards</h2><div id="awards-list" class="grid"></div></section>
+
+    <section id="music" class="music">
+      <h2 id="music-title"></h2>
+      <p id="music-sub"></p>
+      <audio id="player" controls preload="none"></audio>
+    </section>
+
+    <section id="social">
+      <h2>Find me</h2>
+      <div id="social-list" class="social"></div>
+    </section>
+  </main>
+
+  <footer id="footer"></footer>
+
+  <script src="data.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
